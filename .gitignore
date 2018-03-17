@@ -1,0 +1,5 @@
+assets/images/album-artwork/*
+!assets/images/album-artwork/.gitkeep
+assets/music/*
+!assets/music/.gitkeep
+includes/config.php

@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+html,
+body {
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #e2e2e2;
+}
+
+
+/*BUTTONS*/
+input[type="submit"] {
+    display: block;
+    padding: 5px 20px;
+    font-weight: 300;
+    text-decoration: none;
+    border: 1px solid #e2e2e2;
+    border-radius: 100px;
+    background-color: transparent;
+    color: #fff;
+    transition: background-color 0.4s;
+    font-size: 80%;
+    height: 40px;
+    width: 90%;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgba(121, 121, 121, 0.81);
+}
+
+.background {
+  background-image: url("../images/bg.jpg");
+  background-color: #000;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1024px;
+  position: relative;
+
+}
+
+.errorMessage {
+    color: rgb(30, 173, 30);
+    font-weight: 400;
+    background-color: rgba(103, 0, 0, 0.13);
+    display: block;
+    padding: 2px 0;
+    text-align: center;
+    
+}
+
+.login-container {
+    font-size: 110%;
+    line-height: 150%;
+    float: left;
+    overflow: hidden;
+
+}
+
+.login-text {
+  overflow: hidden;
+  padding-top: 10%;
+  padding-left: 25px;
+}
+
+.login-text ul {
+  padding: 0;
+}
+
+.login-text li {
+    font-size: 120%;
+    list-style-type: none;
+    padding: 8px 0;
+}
+
+.login-text h1 {
+    color: rgb(30, 173, 30);
+    font-size: 280%;
+    font-weight: 700;
+
+}
+
+.login-text h2 {
+    margin: 25px 0;
+}
+
+.login-text ul li i {
+    padding-right: 10px;
+    font-size: 90%;
+    color: rgb(30, 173, 30);
+}
+
+.forms {
+    width: 400px;
+    padding: 20px;
+    float: left;
+    border-right: 1px solid #e2e2e2;
+    margin-top: 35%;
+}
+
+.forms h2 {
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form-container {
+    margin-bottom: 30px;
+}
+
+.form-container .form-group:last-child {
+    margin-top: 10px;
+}
+
+/* .register-form {
+    display: none;
+} */
+
+.form-control {
+    display: block;
+    width: 90%;
+    padding: 5px 2px;
+    background-color: transparent;
+    color: #fff;
+    border: 0;
+    border-bottom: 1px solid #fff;
+}
+
+.form-control:focus {
+    outline: none;
+    border-bottom: 2px solid #fff;
+}
+
+.hasAccount {
+    font-weight: 700;
+    font-size: 75%;
+    display: inline-block;
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.hasAccount a:link,
+.hasAccount a:visited{
+    text-decoration: none;
+    color: #fff;
+}
